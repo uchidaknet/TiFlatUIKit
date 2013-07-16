@@ -22,8 +22,6 @@ How to
 ### Create Flat Button ###
 
 ```
-#!javascript
-
 var b = TiFlatUIKit.createButton({
     top : 10,
     left : 10,
@@ -50,8 +48,6 @@ b.addEventListener('click', function(e) {
 ### Create Flat Switch ###
 
 ```
-#!javascript
-
 var sw = TiFlatUIKit.createSwitch({
     top : 10,
     left : 10,
@@ -79,8 +75,6 @@ sw.addEventListener('change', function(e) {
 ### Create Flat Stepper ###
 
 ```
-#!javascript
-
 var st = TiFlatUIKit.createStepper({
     top :10,
     left : 10,
@@ -104,8 +98,6 @@ st.addEventListener('change', function(e) {
 ### Create Flat TabbedBar ###
 
 ```
-#!javascript
-
 var t = TiFlatUIKit.createTabbedBar({
     top : 10,
     left : 10,
@@ -136,8 +128,6 @@ t.addEventListener('click', function(e) {
 ### Create Flat Slider ###
 
 ```
-#!javascript
-
 var sd = TiFlatUIKit.createSlider({
     top : 10,
     left : 10,
@@ -159,8 +149,6 @@ sd.addEventListener('change', function(e) {
 ### Create Flat AlertView ###
 
 ```
-#!javascript
-
 var a = TiFlatUIKit.createAlertDialog({
     titleColor : '#f8f8f8',
     messageColor : '#f8f8f8',
@@ -196,8 +184,6 @@ a.show();
 ### Create Flat ProgressBar ###
 
 ```
-#!javascript
-
 var p = TiFlatUIKit.createProgressBar({
     top : 10,
     left : 10,
