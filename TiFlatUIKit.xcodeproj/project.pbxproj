@@ -1,0 +1,678 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		24416B8111C4CA220047AFDD /* Build & Test */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 24416B8A11C4CA520047AFDD /* Build configuration list for PBXAggregateTarget "Build & Test" */;
+			buildPhases = (
+				24416B8011C4CA220047AFDD /* ShellScript */,
+			);
+			dependencies = (
+				24416B8511C4CA280047AFDD /* PBXTargetDependency */,
+			);
+			name = "Build & Test";
+			productName = "Build & test";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		24DD6CF91134B3F500162E58 /* NetUchidakTiflatuikitModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DD6CF71134B3F500162E58 /* NetUchidakTiflatuikitModule.h */; };
+		24DD6CFA1134B3F500162E58 /* NetUchidakTiflatuikitModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DD6CF81134B3F500162E58 /* NetUchidakTiflatuikitModule.m */; };
+		24DE9E1111C5FE74003F90F6 /* NetUchidakTiflatuikitModuleAssets.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DE9E0F11C5FE74003F90F6 /* NetUchidakTiflatuikitModuleAssets.h */; };
+		24DE9E1211C5FE74003F90F6 /* NetUchidakTiflatuikitModuleAssets.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DE9E1011C5FE74003F90F6 /* NetUchidakTiflatuikitModuleAssets.m */; };
+		AA747D9F0F9514B9006C5449 /* NetUchidakTiflatuikit_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* NetUchidakTiflatuikit_Prefix.pch */; };
+		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
+		FE0B5AB51793F57D001A591C /* NetUchidakTiflatuikitSlider.h in Headers */ = {isa = PBXBuildFile; fileRef = FE0B5AB31793F57D001A591C /* NetUchidakTiflatuikitSlider.h */; };
+		FE0B5AB61793F57D001A591C /* NetUchidakTiflatuikitSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = FE0B5AB41793F57D001A591C /* NetUchidakTiflatuikitSlider.m */; };
+		FE0B5AB91793F5B0001A591C /* NetUchidakTiflatuikitSliderProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = FE0B5AB71793F5B0001A591C /* NetUchidakTiflatuikitSliderProxy.h */; };
+		FE0B5ABA1793F5B0001A591C /* NetUchidakTiflatuikitSliderProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = FE0B5AB81793F5B0001A591C /* NetUchidakTiflatuikitSliderProxy.m */; };
+		FE0B5ABD1794E41A001A591C /* NetUchidakTiflatuikitSwitch.h in Headers */ = {isa = PBXBuildFile; fileRef = FE0B5ABB1794E419001A591C /* NetUchidakTiflatuikitSwitch.h */; };
+		FE0B5ABE1794E41A001A591C /* NetUchidakTiflatuikitSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = FE0B5ABC1794E41A001A591C /* NetUchidakTiflatuikitSwitch.m */; };
+		FE0B5AC11794E43E001A591C /* NetUchidakTiflatuikitSwitchProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = FE0B5ABF1794E43E001A591C /* NetUchidakTiflatuikitSwitchProxy.h */; };
+		FE0B5AC21794E43E001A591C /* NetUchidakTiflatuikitSwitchProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = FE0B5AC01794E43E001A591C /* NetUchidakTiflatuikitSwitchProxy.m */; };
+		FE0B5AC517951E23001A591C /* NetUchidakTiflatuikitProgressBar.h in Headers */ = {isa = PBXBuildFile; fileRef = FE0B5AC317951E22001A591C /* NetUchidakTiflatuikitProgressBar.h */; };
+		FE0B5AC617951E23001A591C /* NetUchidakTiflatuikitProgressBar.m in Sources */ = {isa = PBXBuildFile; fileRef = FE0B5AC417951E22001A591C /* NetUchidakTiflatuikitProgressBar.m */; };
+		FE0B5AC917951E4D001A591C /* NetUchidakTiflatuikitProgressBarProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = FE0B5AC717951E4D001A591C /* NetUchidakTiflatuikitProgressBarProxy.h */; };
+		FE0B5ACA17951E4D001A591C /* NetUchidakTiflatuikitProgressBarProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = FE0B5AC817951E4D001A591C /* NetUchidakTiflatuikitProgressBarProxy.m */; };
+		FE0B5ACD17952F17001A591C /* NetUchidakTiflatuikitStepper.h in Headers */ = {isa = PBXBuildFile; fileRef = FE0B5ACB17952F16001A591C /* NetUchidakTiflatuikitStepper.h */; };
+		FE0B5ACE17952F17001A591C /* NetUchidakTiflatuikitStepper.m in Sources */ = {isa = PBXBuildFile; fileRef = FE0B5ACC17952F17001A591C /* NetUchidakTiflatuikitStepper.m */; };
+		FE0B5AD117952F47001A591C /* NetUchidakTiflatuikitStepperProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = FE0B5ACF17952F46001A591C /* NetUchidakTiflatuikitStepperProxy.h */; };
+		FE0B5AD217952F47001A591C /* NetUchidakTiflatuikitStepperProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = FE0B5AD017952F47001A591C /* NetUchidakTiflatuikitStepperProxy.m */; };
+		FE170CAF178F06EA00FA89B4 /* NetUchidakTiflatuikitButtonProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = FE170CAD178F06EA00FA89B4 /* NetUchidakTiflatuikitButtonProxy.h */; };
+		FE170CB0178F06EA00FA89B4 /* NetUchidakTiflatuikitButtonProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = FE170CAE178F06EA00FA89B4 /* NetUchidakTiflatuikitButtonProxy.m */; };
+		FE170CB3178F08A100FA89B4 /* NetUchidakTiflatuikitButton.h in Headers */ = {isa = PBXBuildFile; fileRef = FE170CB1178F08A100FA89B4 /* NetUchidakTiflatuikitButton.h */; };
+		FE170CB4178F08A100FA89B4 /* NetUchidakTiflatuikitButton.m in Sources */ = {isa = PBXBuildFile; fileRef = FE170CB2178F08A100FA89B4 /* NetUchidakTiflatuikitButton.m */; };
+		FE170D09178FE58700FA89B4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE170D08178FE58700FA89B4 /* CoreGraphics.framework */; };
+		FE170D0B178FE59200FA89B4 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE170D0A178FE59200FA89B4 /* CoreText.framework */; };
+		FE170D0D178FE5A400FA89B4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE170D0C178FE5A300FA89B4 /* UIKit.framework */; };
+		FE6CBC6B179048C600FAC1A3 /* FlatUIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = FE6CBC46179048C600FAC1A3 /* FlatUIKit.h */; };
+		FE6CBC6C179048C600FAC1A3 /* FUIAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = FE6CBC47179048C600FAC1A3 /* FUIAlertView.h */; };
+		FE6CBC6D179048C600FAC1A3 /* FUIAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6CBC48179048C600FAC1A3 /* FUIAlertView.m */; };
+		FE6CBC6E179048C600FAC1A3 /* FUIButton.h in Headers */ = {isa = PBXBuildFile; fileRef = FE6CBC49179048C600FAC1A3 /* FUIButton.h */; };
+		FE6CBC6F179048C600FAC1A3 /* FUIButton.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6CBC4A179048C600FAC1A3 /* FUIButton.m */; };
+		FE6CBC70179048C600FAC1A3 /* FUICellBackgroundView.h in Headers */ = {isa = PBXBuildFile; fileRef = FE6CBC4B179048C600FAC1A3 /* FUICellBackgroundView.h */; };
+		FE6CBC71179048C600FAC1A3 /* FUICellBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6CBC4C179048C600FAC1A3 /* FUICellBackgroundView.m */; };
+		FE6CBC72179048C600FAC1A3 /* FUIPopoverBackgroundView.h in Headers */ = {isa = PBXBuildFile; fileRef = FE6CBC4D179048C600FAC1A3 /* FUIPopoverBackgroundView.h */; };
+		FE6CBC73179048C600FAC1A3 /* FUIPopoverBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6CBC4E179048C600FAC1A3 /* FUIPopoverBackgroundView.m */; };
+		FE6CBC74179048C600FAC1A3 /* FUISegmentedControl.h in Headers */ = {isa = PBXBuildFile; fileRef = FE6CBC4F179048C600FAC1A3 /* FUISegmentedControl.h */; };
+		FE6CBC75179048C600FAC1A3 /* FUISegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6CBC50179048C600FAC1A3 /* FUISegmentedControl.m */; };
+		FE6CBC76179048C600FAC1A3 /* FUISwitch.h in Headers */ = {isa = PBXBuildFile; fileRef = FE6CBC51179048C600FAC1A3 /* FUISwitch.h */; };
+		FE6CBC77179048C600FAC1A3 /* FUISwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6CBC52179048C600FAC1A3 /* FUISwitch.m */; };
+		FE6CBC78179048C600FAC1A3 /* UIBarButtonItem+FlatUI.h in Headers */ = {isa = PBXBuildFile; fileRef = FE6CBC53179048C600FAC1A3 /* UIBarButtonItem+FlatUI.h */; };
+		FE6CBC79179048C600FAC1A3 /* UIBarButtonItem+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6CBC54179048C600FAC1A3 /* UIBarButtonItem+FlatUI.m */; };
+		FE6CBC7A179048C600FAC1A3 /* UIColor+FlatUI.h in Headers */ = {isa = PBXBuildFile; fileRef = FE6CBC55179048C600FAC1A3 /* UIColor+FlatUI.h */; };
+		FE6CBC7B179048C600FAC1A3 /* UIColor+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6CBC56179048C600FAC1A3 /* UIColor+FlatUI.m */; };
+		FE6CBC7C179048C600FAC1A3 /* UIFont+FlatUI.h in Headers */ = {isa = PBXBuildFile; fileRef = FE6CBC57179048C600FAC1A3 /* UIFont+FlatUI.h */; };
+		FE6CBC7D179048C600FAC1A3 /* UIFont+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6CBC58179048C600FAC1A3 /* UIFont+FlatUI.m */; };
+		FE6CBC7E179048C600FAC1A3 /* UIImage+FlatUI.h in Headers */ = {isa = PBXBuildFile; fileRef = FE6CBC59179048C600FAC1A3 /* UIImage+FlatUI.h */; };
+		FE6CBC7F179048C600FAC1A3 /* UIImage+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6CBC5A179048C600FAC1A3 /* UIImage+FlatUI.m */; };
+		FE6CBC80179048C600FAC1A3 /* UINavigationBar+FlatUI.h in Headers */ = {isa = PBXBuildFile; fileRef = FE6CBC5B179048C600FAC1A3 /* UINavigationBar+FlatUI.h */; };
+		FE6CBC81179048C600FAC1A3 /* UINavigationBar+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6CBC5C179048C600FAC1A3 /* UINavigationBar+FlatUI.m */; };
+		FE6CBC82179048C600FAC1A3 /* UIPopoverController+FlatUI.h in Headers */ = {isa = PBXBuildFile; fileRef = FE6CBC5D179048C600FAC1A3 /* UIPopoverController+FlatUI.h */; };
+		FE6CBC83179048C600FAC1A3 /* UIPopoverController+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6CBC5E179048C600FAC1A3 /* UIPopoverController+FlatUI.m */; };
+		FE6CBC84179048C600FAC1A3 /* UIProgressView+FlatUI.h in Headers */ = {isa = PBXBuildFile; fileRef = FE6CBC5F179048C600FAC1A3 /* UIProgressView+FlatUI.h */; };
+		FE6CBC85179048C600FAC1A3 /* UIProgressView+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6CBC60179048C600FAC1A3 /* UIProgressView+FlatUI.m */; };
+		FE6CBC86179048C600FAC1A3 /* UISlider+FlatUI.h in Headers */ = {isa = PBXBuildFile; fileRef = FE6CBC61179048C600FAC1A3 /* UISlider+FlatUI.h */; };
+		FE6CBC87179048C600FAC1A3 /* UISlider+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6CBC62179048C600FAC1A3 /* UISlider+FlatUI.m */; };
+		FE6CBC88179048C600FAC1A3 /* UIStepper+FlatUI.h in Headers */ = {isa = PBXBuildFile; fileRef = FE6CBC63179048C600FAC1A3 /* UIStepper+FlatUI.h */; };
+		FE6CBC89179048C600FAC1A3 /* UIStepper+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6CBC64179048C600FAC1A3 /* UIStepper+FlatUI.m */; };
+		FE6CBC8A179048C600FAC1A3 /* UITabBar+FlatUI.h in Headers */ = {isa = PBXBuildFile; fileRef = FE6CBC65179048C600FAC1A3 /* UITabBar+FlatUI.h */; };
+		FE6CBC8B179048C600FAC1A3 /* UITabBar+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6CBC66179048C600FAC1A3 /* UITabBar+FlatUI.m */; };
+		FE6CBC8C179048C600FAC1A3 /* UITableViewCell+FlatUI.h in Headers */ = {isa = PBXBuildFile; fileRef = FE6CBC67179048C600FAC1A3 /* UITableViewCell+FlatUI.h */; };
+		FE6CBC8D179048C600FAC1A3 /* UITableViewCell+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6CBC68179048C600FAC1A3 /* UITableViewCell+FlatUI.m */; };
+		FE6CBC8E179048C600FAC1A3 /* UIToolbar+FlatUI.h in Headers */ = {isa = PBXBuildFile; fileRef = FE6CBC69179048C600FAC1A3 /* UIToolbar+FlatUI.h */; };
+		FE6CBC8F179048C600FAC1A3 /* UIToolbar+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6CBC6A179048C600FAC1A3 /* UIToolbar+FlatUI.m */; };
+		FEB55C081792D268006B25EB /* NetUchidakTiflatuikitTabbedBar.h in Headers */ = {isa = PBXBuildFile; fileRef = FEB55C061792D268006B25EB /* NetUchidakTiflatuikitTabbedBar.h */; };
+		FEB55C091792D268006B25EB /* NetUchidakTiflatuikitTabbedBar.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB55C071792D268006B25EB /* NetUchidakTiflatuikitTabbedBar.m */; };
+		FEB55C0C1792D2A3006B25EB /* NetUchidakTiflatuikitTabbedBarProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = FEB55C0A1792D2A3006B25EB /* NetUchidakTiflatuikitTabbedBarProxy.h */; };
+		FEB55C0D1792D2A3006B25EB /* NetUchidakTiflatuikitTabbedBarProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB55C0B1792D2A3006B25EB /* NetUchidakTiflatuikitTabbedBarProxy.m */; };
+		FEB55C141792E81B006B25EB /* NetUchidakTiflatuikitAlertDialogProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = FEB55C121792E81B006B25EB /* NetUchidakTiflatuikitAlertDialogProxy.h */; };
+		FEB55C151792E81B006B25EB /* NetUchidakTiflatuikitAlertDialogProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB55C131792E81B006B25EB /* NetUchidakTiflatuikitAlertDialogProxy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		24416B8411C4CA280047AFDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
+			remoteInfo = TiFlatUIKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		24DD6CF71134B3F500162E58 /* NetUchidakTiflatuikitModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NetUchidakTiflatuikitModule.h; path = Classes/NetUchidakTiflatuikitModule.h; sourceTree = "<group>"; };
+		24DD6CF81134B3F500162E58 /* NetUchidakTiflatuikitModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NetUchidakTiflatuikitModule.m; path = Classes/NetUchidakTiflatuikitModule.m; sourceTree = "<group>"; };
+		24DD6D1B1134B66800162E58 /* titanium.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = titanium.xcconfig; sourceTree = "<group>"; };
+		24DE9E0F11C5FE74003F90F6 /* NetUchidakTiflatuikitModuleAssets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NetUchidakTiflatuikitModuleAssets.h; path = Classes/NetUchidakTiflatuikitModuleAssets.h; sourceTree = "<group>"; };
+		24DE9E1011C5FE74003F90F6 /* NetUchidakTiflatuikitModuleAssets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NetUchidakTiflatuikitModuleAssets.m; path = Classes/NetUchidakTiflatuikitModuleAssets.m; sourceTree = "<group>"; };
+		AA747D9E0F9514B9006C5449 /* NetUchidakTiflatuikit_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetUchidakTiflatuikit_Prefix.pch; sourceTree = SOURCE_ROOT; };
+		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D2AAC07E0554694100DB518D /* libNetUchidakTiflatuikit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libNetUchidakTiflatuikit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE0B5AB31793F57D001A591C /* NetUchidakTiflatuikitSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NetUchidakTiflatuikitSlider.h; path = Classes/NetUchidakTiflatuikitSlider.h; sourceTree = "<group>"; };
+		FE0B5AB41793F57D001A591C /* NetUchidakTiflatuikitSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NetUchidakTiflatuikitSlider.m; path = Classes/NetUchidakTiflatuikitSlider.m; sourceTree = "<group>"; };
+		FE0B5AB71793F5B0001A591C /* NetUchidakTiflatuikitSliderProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NetUchidakTiflatuikitSliderProxy.h; path = Classes/NetUchidakTiflatuikitSliderProxy.h; sourceTree = "<group>"; };
+		FE0B5AB81793F5B0001A591C /* NetUchidakTiflatuikitSliderProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NetUchidakTiflatuikitSliderProxy.m; path = Classes/NetUchidakTiflatuikitSliderProxy.m; sourceTree = "<group>"; };
+		FE0B5ABB1794E419001A591C /* NetUchidakTiflatuikitSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NetUchidakTiflatuikitSwitch.h; path = Classes/NetUchidakTiflatuikitSwitch.h; sourceTree = "<group>"; };
+		FE0B5ABC1794E41A001A591C /* NetUchidakTiflatuikitSwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NetUchidakTiflatuikitSwitch.m; path = Classes/NetUchidakTiflatuikitSwitch.m; sourceTree = "<group>"; };
+		FE0B5ABF1794E43E001A591C /* NetUchidakTiflatuikitSwitchProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NetUchidakTiflatuikitSwitchProxy.h; path = Classes/NetUchidakTiflatuikitSwitchProxy.h; sourceTree = "<group>"; };
+		FE0B5AC01794E43E001A591C /* NetUchidakTiflatuikitSwitchProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NetUchidakTiflatuikitSwitchProxy.m; path = Classes/NetUchidakTiflatuikitSwitchProxy.m; sourceTree = "<group>"; };
+		FE0B5AC317951E22001A591C /* NetUchidakTiflatuikitProgressBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NetUchidakTiflatuikitProgressBar.h; path = Classes/NetUchidakTiflatuikitProgressBar.h; sourceTree = "<group>"; };
+		FE0B5AC417951E22001A591C /* NetUchidakTiflatuikitProgressBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NetUchidakTiflatuikitProgressBar.m; path = Classes/NetUchidakTiflatuikitProgressBar.m; sourceTree = "<group>"; };
+		FE0B5AC717951E4D001A591C /* NetUchidakTiflatuikitProgressBarProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NetUchidakTiflatuikitProgressBarProxy.h; path = Classes/NetUchidakTiflatuikitProgressBarProxy.h; sourceTree = "<group>"; };
+		FE0B5AC817951E4D001A591C /* NetUchidakTiflatuikitProgressBarProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NetUchidakTiflatuikitProgressBarProxy.m; path = Classes/NetUchidakTiflatuikitProgressBarProxy.m; sourceTree = "<group>"; };
+		FE0B5ACB17952F16001A591C /* NetUchidakTiflatuikitStepper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NetUchidakTiflatuikitStepper.h; path = Classes/NetUchidakTiflatuikitStepper.h; sourceTree = "<group>"; };
+		FE0B5ACC17952F17001A591C /* NetUchidakTiflatuikitStepper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NetUchidakTiflatuikitStepper.m; path = Classes/NetUchidakTiflatuikitStepper.m; sourceTree = "<group>"; };
+		FE0B5ACF17952F46001A591C /* NetUchidakTiflatuikitStepperProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NetUchidakTiflatuikitStepperProxy.h; path = Classes/NetUchidakTiflatuikitStepperProxy.h; sourceTree = "<group>"; };
+		FE0B5AD017952F47001A591C /* NetUchidakTiflatuikitStepperProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NetUchidakTiflatuikitStepperProxy.m; path = Classes/NetUchidakTiflatuikitStepperProxy.m; sourceTree = "<group>"; };
+		FE170CAD178F06EA00FA89B4 /* NetUchidakTiflatuikitButtonProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NetUchidakTiflatuikitButtonProxy.h; path = Classes/NetUchidakTiflatuikitButtonProxy.h; sourceTree = "<group>"; };
+		FE170CAE178F06EA00FA89B4 /* NetUchidakTiflatuikitButtonProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NetUchidakTiflatuikitButtonProxy.m; path = Classes/NetUchidakTiflatuikitButtonProxy.m; sourceTree = "<group>"; };
+		FE170CB1178F08A100FA89B4 /* NetUchidakTiflatuikitButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NetUchidakTiflatuikitButton.h; path = Classes/NetUchidakTiflatuikitButton.h; sourceTree = "<group>"; };
+		FE170CB2178F08A100FA89B4 /* NetUchidakTiflatuikitButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NetUchidakTiflatuikitButton.m; path = Classes/NetUchidakTiflatuikitButton.m; sourceTree = "<group>"; };
+		FE170D08178FE58700FA89B4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FE170D0A178FE59200FA89B4 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		FE170D0C178FE5A300FA89B4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FE6CBC46179048C600FAC1A3 /* FlatUIKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FlatUIKit.h; path = Classes/FlatUIKit.h; sourceTree = "<group>"; };
+		FE6CBC47179048C600FAC1A3 /* FUIAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FUIAlertView.h; path = Classes/FUIAlertView.h; sourceTree = "<group>"; };
+		FE6CBC48179048C600FAC1A3 /* FUIAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FUIAlertView.m; path = Classes/FUIAlertView.m; sourceTree = "<group>"; };
+		FE6CBC49179048C600FAC1A3 /* FUIButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FUIButton.h; path = Classes/FUIButton.h; sourceTree = "<group>"; };
+		FE6CBC4A179048C600FAC1A3 /* FUIButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FUIButton.m; path = Classes/FUIButton.m; sourceTree = "<group>"; };
+		FE6CBC4B179048C600FAC1A3 /* FUICellBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FUICellBackgroundView.h; path = Classes/FUICellBackgroundView.h; sourceTree = "<group>"; };
+		FE6CBC4C179048C600FAC1A3 /* FUICellBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FUICellBackgroundView.m; path = Classes/FUICellBackgroundView.m; sourceTree = "<group>"; };
+		FE6CBC4D179048C600FAC1A3 /* FUIPopoverBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FUIPopoverBackgroundView.h; path = Classes/FUIPopoverBackgroundView.h; sourceTree = "<group>"; };
+		FE6CBC4E179048C600FAC1A3 /* FUIPopoverBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FUIPopoverBackgroundView.m; path = Classes/FUIPopoverBackgroundView.m; sourceTree = "<group>"; };
+		FE6CBC4F179048C600FAC1A3 /* FUISegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FUISegmentedControl.h; path = Classes/FUISegmentedControl.h; sourceTree = "<group>"; };
+		FE6CBC50179048C600FAC1A3 /* FUISegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FUISegmentedControl.m; path = Classes/FUISegmentedControl.m; sourceTree = "<group>"; };
+		FE6CBC51179048C600FAC1A3 /* FUISwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FUISwitch.h; path = Classes/FUISwitch.h; sourceTree = "<group>"; };
+		FE6CBC52179048C600FAC1A3 /* FUISwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FUISwitch.m; path = Classes/FUISwitch.m; sourceTree = "<group>"; };
+		FE6CBC53179048C600FAC1A3 /* UIBarButtonItem+FlatUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIBarButtonItem+FlatUI.h"; path = "Classes/UIBarButtonItem+FlatUI.h"; sourceTree = "<group>"; };
+		FE6CBC54179048C600FAC1A3 /* UIBarButtonItem+FlatUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIBarButtonItem+FlatUI.m"; path = "Classes/UIBarButtonItem+FlatUI.m"; sourceTree = "<group>"; };
+		FE6CBC55179048C600FAC1A3 /* UIColor+FlatUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+FlatUI.h"; path = "Classes/UIColor+FlatUI.h"; sourceTree = "<group>"; };
+		FE6CBC56179048C600FAC1A3 /* UIColor+FlatUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+FlatUI.m"; path = "Classes/UIColor+FlatUI.m"; sourceTree = "<group>"; };
+		FE6CBC57179048C600FAC1A3 /* UIFont+FlatUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIFont+FlatUI.h"; path = "Classes/UIFont+FlatUI.h"; sourceTree = "<group>"; };
+		FE6CBC58179048C600FAC1A3 /* UIFont+FlatUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIFont+FlatUI.m"; path = "Classes/UIFont+FlatUI.m"; sourceTree = "<group>"; };
+		FE6CBC59179048C600FAC1A3 /* UIImage+FlatUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+FlatUI.h"; path = "Classes/UIImage+FlatUI.h"; sourceTree = "<group>"; };
+		FE6CBC5A179048C600FAC1A3 /* UIImage+FlatUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+FlatUI.m"; path = "Classes/UIImage+FlatUI.m"; sourceTree = "<group>"; };
+		FE6CBC5B179048C600FAC1A3 /* UINavigationBar+FlatUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UINavigationBar+FlatUI.h"; path = "Classes/UINavigationBar+FlatUI.h"; sourceTree = "<group>"; };
+		FE6CBC5C179048C600FAC1A3 /* UINavigationBar+FlatUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UINavigationBar+FlatUI.m"; path = "Classes/UINavigationBar+FlatUI.m"; sourceTree = "<group>"; };
+		FE6CBC5D179048C600FAC1A3 /* UIPopoverController+FlatUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIPopoverController+FlatUI.h"; path = "Classes/UIPopoverController+FlatUI.h"; sourceTree = "<group>"; };
+		FE6CBC5E179048C600FAC1A3 /* UIPopoverController+FlatUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIPopoverController+FlatUI.m"; path = "Classes/UIPopoverController+FlatUI.m"; sourceTree = "<group>"; };
+		FE6CBC5F179048C600FAC1A3 /* UIProgressView+FlatUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIProgressView+FlatUI.h"; path = "Classes/UIProgressView+FlatUI.h"; sourceTree = "<group>"; };
+		FE6CBC60179048C600FAC1A3 /* UIProgressView+FlatUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIProgressView+FlatUI.m"; path = "Classes/UIProgressView+FlatUI.m"; sourceTree = "<group>"; };
+		FE6CBC61179048C600FAC1A3 /* UISlider+FlatUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UISlider+FlatUI.h"; path = "Classes/UISlider+FlatUI.h"; sourceTree = "<group>"; };
+		FE6CBC62179048C600FAC1A3 /* UISlider+FlatUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UISlider+FlatUI.m"; path = "Classes/UISlider+FlatUI.m"; sourceTree = "<group>"; };
+		FE6CBC63179048C600FAC1A3 /* UIStepper+FlatUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIStepper+FlatUI.h"; path = "Classes/UIStepper+FlatUI.h"; sourceTree = "<group>"; };
+		FE6CBC64179048C600FAC1A3 /* UIStepper+FlatUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIStepper+FlatUI.m"; path = "Classes/UIStepper+FlatUI.m"; sourceTree = "<group>"; };
+		FE6CBC65179048C600FAC1A3 /* UITabBar+FlatUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UITabBar+FlatUI.h"; path = "Classes/UITabBar+FlatUI.h"; sourceTree = "<group>"; };
+		FE6CBC66179048C600FAC1A3 /* UITabBar+FlatUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UITabBar+FlatUI.m"; path = "Classes/UITabBar+FlatUI.m"; sourceTree = "<group>"; };
+		FE6CBC67179048C600FAC1A3 /* UITableViewCell+FlatUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UITableViewCell+FlatUI.h"; path = "Classes/UITableViewCell+FlatUI.h"; sourceTree = "<group>"; };
+		FE6CBC68179048C600FAC1A3 /* UITableViewCell+FlatUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UITableViewCell+FlatUI.m"; path = "Classes/UITableViewCell+FlatUI.m"; sourceTree = "<group>"; };
+		FE6CBC69179048C600FAC1A3 /* UIToolbar+FlatUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIToolbar+FlatUI.h"; path = "Classes/UIToolbar+FlatUI.h"; sourceTree = "<group>"; };
+		FE6CBC6A179048C600FAC1A3 /* UIToolbar+FlatUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIToolbar+FlatUI.m"; path = "Classes/UIToolbar+FlatUI.m"; sourceTree = "<group>"; };
+		FEB55C061792D268006B25EB /* NetUchidakTiflatuikitTabbedBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NetUchidakTiflatuikitTabbedBar.h; path = Classes/NetUchidakTiflatuikitTabbedBar.h; sourceTree = "<group>"; };
+		FEB55C071792D268006B25EB /* NetUchidakTiflatuikitTabbedBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NetUchidakTiflatuikitTabbedBar.m; path = Classes/NetUchidakTiflatuikitTabbedBar.m; sourceTree = "<group>"; };
+		FEB55C0A1792D2A3006B25EB /* NetUchidakTiflatuikitTabbedBarProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NetUchidakTiflatuikitTabbedBarProxy.h; path = Classes/NetUchidakTiflatuikitTabbedBarProxy.h; sourceTree = "<group>"; };
+		FEB55C0B1792D2A3006B25EB /* NetUchidakTiflatuikitTabbedBarProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NetUchidakTiflatuikitTabbedBarProxy.m; path = Classes/NetUchidakTiflatuikitTabbedBarProxy.m; sourceTree = "<group>"; };
+		FEB55C121792E81B006B25EB /* NetUchidakTiflatuikitAlertDialogProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NetUchidakTiflatuikitAlertDialogProxy.h; path = Classes/NetUchidakTiflatuikitAlertDialogProxy.h; sourceTree = "<group>"; };
+		FEB55C131792E81B006B25EB /* NetUchidakTiflatuikitAlertDialogProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NetUchidakTiflatuikitAlertDialogProxy.m; path = Classes/NetUchidakTiflatuikitAlertDialogProxy.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2AAC07C0554694100DB518D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE170D0D178FE5A400FA89B4 /* UIKit.framework in Frameworks */,
+				FE170D0B178FE59200FA89B4 /* CoreText.framework in Frameworks */,
+				FE170D09178FE58700FA89B4 /* CoreGraphics.framework in Frameworks */,
+				AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DFFF38A50411DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2AAC07E0554694100DB518D /* libNetUchidakTiflatuikit.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* TiFlatUIKit */ = {
+			isa = PBXGroup;
+			children = (
+				FE170D0C178FE5A300FA89B4 /* UIKit.framework */,
+				FE170D0A178FE59200FA89B4 /* CoreText.framework */,
+				FE170D08178FE58700FA89B4 /* CoreGraphics.framework */,
+				08FB77AEFE84172EC02AAC07 /* Classes */,
+				32C88DFF0371C24200C91783 /* Other Sources */,
+				0867D69AFE84028FC02AAC07 /* Frameworks */,
+				034768DFFF38A50411DB9C8B /* Products */,
+			);
+			name = TiFlatUIKit;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AACBBE490F95108600F1A2B1 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		08FB77AEFE84172EC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FE6CBC46179048C600FAC1A3 /* FlatUIKit.h */,
+				FE6CBC47179048C600FAC1A3 /* FUIAlertView.h */,
+				FE6CBC48179048C600FAC1A3 /* FUIAlertView.m */,
+				FE6CBC49179048C600FAC1A3 /* FUIButton.h */,
+				FE6CBC4A179048C600FAC1A3 /* FUIButton.m */,
+				FE6CBC4B179048C600FAC1A3 /* FUICellBackgroundView.h */,
+				FE6CBC4C179048C600FAC1A3 /* FUICellBackgroundView.m */,
+				FE6CBC4D179048C600FAC1A3 /* FUIPopoverBackgroundView.h */,
+				FE6CBC4E179048C600FAC1A3 /* FUIPopoverBackgroundView.m */,
+				FE6CBC4F179048C600FAC1A3 /* FUISegmentedControl.h */,
+				FE6CBC50179048C600FAC1A3 /* FUISegmentedControl.m */,
+				FE6CBC51179048C600FAC1A3 /* FUISwitch.h */,
+				FE6CBC52179048C600FAC1A3 /* FUISwitch.m */,
+				FE6CBC53179048C600FAC1A3 /* UIBarButtonItem+FlatUI.h */,
+				FE6CBC54179048C600FAC1A3 /* UIBarButtonItem+FlatUI.m */,
+				FE6CBC55179048C600FAC1A3 /* UIColor+FlatUI.h */,
+				FE6CBC56179048C600FAC1A3 /* UIColor+FlatUI.m */,
+				FE6CBC57179048C600FAC1A3 /* UIFont+FlatUI.h */,
+				FE6CBC58179048C600FAC1A3 /* UIFont+FlatUI.m */,
+				FE6CBC59179048C600FAC1A3 /* UIImage+FlatUI.h */,
+				FE6CBC5A179048C600FAC1A3 /* UIImage+FlatUI.m */,
+				FE6CBC5B179048C600FAC1A3 /* UINavigationBar+FlatUI.h */,
+				FE6CBC5C179048C600FAC1A3 /* UINavigationBar+FlatUI.m */,
+				FE6CBC5D179048C600FAC1A3 /* UIPopoverController+FlatUI.h */,
+				FE6CBC5E179048C600FAC1A3 /* UIPopoverController+FlatUI.m */,
+				FE6CBC5F179048C600FAC1A3 /* UIProgressView+FlatUI.h */,
+				FE6CBC60179048C600FAC1A3 /* UIProgressView+FlatUI.m */,
+				FE6CBC61179048C600FAC1A3 /* UISlider+FlatUI.h */,
+				FE6CBC62179048C600FAC1A3 /* UISlider+FlatUI.m */,
+				FE6CBC63179048C600FAC1A3 /* UIStepper+FlatUI.h */,
+				FE6CBC64179048C600FAC1A3 /* UIStepper+FlatUI.m */,
+				FE6CBC65179048C600FAC1A3 /* UITabBar+FlatUI.h */,
+				FE6CBC66179048C600FAC1A3 /* UITabBar+FlatUI.m */,
+				FE6CBC67179048C600FAC1A3 /* UITableViewCell+FlatUI.h */,
+				FE6CBC68179048C600FAC1A3 /* UITableViewCell+FlatUI.m */,
+				FE6CBC69179048C600FAC1A3 /* UIToolbar+FlatUI.h */,
+				FE6CBC6A179048C600FAC1A3 /* UIToolbar+FlatUI.m */,
+				FEB55C061792D268006B25EB /* NetUchidakTiflatuikitTabbedBar.h */,
+				FE0B5ABB1794E419001A591C /* NetUchidakTiflatuikitSwitch.h */,
+				FE0B5ABF1794E43E001A591C /* NetUchidakTiflatuikitSwitchProxy.h */,
+				FE0B5AC01794E43E001A591C /* NetUchidakTiflatuikitSwitchProxy.m */,
+				FE0B5ABC1794E41A001A591C /* NetUchidakTiflatuikitSwitch.m */,
+				FE0B5AB71793F5B0001A591C /* NetUchidakTiflatuikitSliderProxy.h */,
+				FE0B5AC317951E22001A591C /* NetUchidakTiflatuikitProgressBar.h */,
+				FE0B5AC717951E4D001A591C /* NetUchidakTiflatuikitProgressBarProxy.h */,
+				FE0B5AC817951E4D001A591C /* NetUchidakTiflatuikitProgressBarProxy.m */,
+				FE0B5AC417951E22001A591C /* NetUchidakTiflatuikitProgressBar.m */,
+				FE0B5AB81793F5B0001A591C /* NetUchidakTiflatuikitSliderProxy.m */,
+				FE0B5AB31793F57D001A591C /* NetUchidakTiflatuikitSlider.h */,
+				FE0B5ACB17952F16001A591C /* NetUchidakTiflatuikitStepper.h */,
+				FE0B5ACF17952F46001A591C /* NetUchidakTiflatuikitStepperProxy.h */,
+				FE0B5AD017952F47001A591C /* NetUchidakTiflatuikitStepperProxy.m */,
+				FE0B5ACC17952F17001A591C /* NetUchidakTiflatuikitStepper.m */,
+				FE0B5AB41793F57D001A591C /* NetUchidakTiflatuikitSlider.m */,
+				FEB55C0A1792D2A3006B25EB /* NetUchidakTiflatuikitTabbedBarProxy.h */,
+				FEB55C121792E81B006B25EB /* NetUchidakTiflatuikitAlertDialogProxy.h */,
+				FEB55C131792E81B006B25EB /* NetUchidakTiflatuikitAlertDialogProxy.m */,
+				FEB55C0B1792D2A3006B25EB /* NetUchidakTiflatuikitTabbedBarProxy.m */,
+				FEB55C071792D268006B25EB /* NetUchidakTiflatuikitTabbedBar.m */,
+				24DE9E0F11C5FE74003F90F6 /* NetUchidakTiflatuikitModuleAssets.h */,
+				FE170CAD178F06EA00FA89B4 /* NetUchidakTiflatuikitButtonProxy.h */,
+				FE170CAE178F06EA00FA89B4 /* NetUchidakTiflatuikitButtonProxy.m */,
+				FE170CB1178F08A100FA89B4 /* NetUchidakTiflatuikitButton.h */,
+				FE170CB2178F08A100FA89B4 /* NetUchidakTiflatuikitButton.m */,
+				24DE9E1011C5FE74003F90F6 /* NetUchidakTiflatuikitModuleAssets.m */,
+				24DD6CF71134B3F500162E58 /* NetUchidakTiflatuikitModule.h */,
+				24DD6CF81134B3F500162E58 /* NetUchidakTiflatuikitModule.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		32C88DFF0371C24200C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				AA747D9E0F9514B9006C5449 /* NetUchidakTiflatuikit_Prefix.pch */,
+				24DD6D1B1134B66800162E58 /* titanium.xcconfig */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D2AAC07A0554694100DB518D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA747D9F0F9514B9006C5449 /* NetUchidakTiflatuikit_Prefix.pch in Headers */,
+				24DD6CF91134B3F500162E58 /* NetUchidakTiflatuikitModule.h in Headers */,
+				24DE9E1111C5FE74003F90F6 /* NetUchidakTiflatuikitModuleAssets.h in Headers */,
+				FE170CAF178F06EA00FA89B4 /* NetUchidakTiflatuikitButtonProxy.h in Headers */,
+				FE170CB3178F08A100FA89B4 /* NetUchidakTiflatuikitButton.h in Headers */,
+				FE6CBC6B179048C600FAC1A3 /* FlatUIKit.h in Headers */,
+				FE6CBC6C179048C600FAC1A3 /* FUIAlertView.h in Headers */,
+				FE6CBC6E179048C600FAC1A3 /* FUIButton.h in Headers */,
+				FE6CBC70179048C600FAC1A3 /* FUICellBackgroundView.h in Headers */,
+				FE6CBC72179048C600FAC1A3 /* FUIPopoverBackgroundView.h in Headers */,
+				FE6CBC74179048C600FAC1A3 /* FUISegmentedControl.h in Headers */,
+				FE6CBC76179048C600FAC1A3 /* FUISwitch.h in Headers */,
+				FE6CBC78179048C600FAC1A3 /* UIBarButtonItem+FlatUI.h in Headers */,
+				FE6CBC7A179048C600FAC1A3 /* UIColor+FlatUI.h in Headers */,
+				FE6CBC7C179048C600FAC1A3 /* UIFont+FlatUI.h in Headers */,
+				FE6CBC7E179048C600FAC1A3 /* UIImage+FlatUI.h in Headers */,
+				FE6CBC80179048C600FAC1A3 /* UINavigationBar+FlatUI.h in Headers */,
+				FE6CBC82179048C600FAC1A3 /* UIPopoverController+FlatUI.h in Headers */,
+				FE6CBC84179048C600FAC1A3 /* UIProgressView+FlatUI.h in Headers */,
+				FE6CBC86179048C600FAC1A3 /* UISlider+FlatUI.h in Headers */,
+				FE6CBC88179048C600FAC1A3 /* UIStepper+FlatUI.h in Headers */,
+				FE6CBC8A179048C600FAC1A3 /* UITabBar+FlatUI.h in Headers */,
+				FE6CBC8C179048C600FAC1A3 /* UITableViewCell+FlatUI.h in Headers */,
+				FE6CBC8E179048C600FAC1A3 /* UIToolbar+FlatUI.h in Headers */,
+				FEB55C081792D268006B25EB /* NetUchidakTiflatuikitTabbedBar.h in Headers */,
+				FEB55C0C1792D2A3006B25EB /* NetUchidakTiflatuikitTabbedBarProxy.h in Headers */,
+				FEB55C141792E81B006B25EB /* NetUchidakTiflatuikitAlertDialogProxy.h in Headers */,
+				FE0B5AB51793F57D001A591C /* NetUchidakTiflatuikitSlider.h in Headers */,
+				FE0B5AB91793F5B0001A591C /* NetUchidakTiflatuikitSliderProxy.h in Headers */,
+				FE0B5ABD1794E41A001A591C /* NetUchidakTiflatuikitSwitch.h in Headers */,
+				FE0B5AC11794E43E001A591C /* NetUchidakTiflatuikitSwitchProxy.h in Headers */,
+				FE0B5AC517951E23001A591C /* NetUchidakTiflatuikitProgressBar.h in Headers */,
+				FE0B5AC917951E4D001A591C /* NetUchidakTiflatuikitProgressBarProxy.h in Headers */,
+				FE0B5ACD17952F17001A591C /* NetUchidakTiflatuikitStepper.h in Headers */,
+				FE0B5AD117952F47001A591C /* NetUchidakTiflatuikitStepperProxy.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D2AAC07D0554694100DB518D /* TiFlatUIKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "TiFlatUIKit" */;
+			buildPhases = (
+				D2AAC07A0554694100DB518D /* Headers */,
+				D2AAC07B0554694100DB518D /* Sources */,
+				D2AAC07C0554694100DB518D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TiFlatUIKit;
+			productName = TiFlatUIKit;
+			productReference = D2AAC07E0554694100DB518D /* libNetUchidakTiflatuikit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "TiFlatUIKit" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 0867D691FE84028FC02AAC07 /* TiFlatUIKit */;
+			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2AAC07D0554694100DB518D /* TiFlatUIKit */,
+				24416B8111C4CA220047AFDD /* Build & Test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		24416B8011C4CA220047AFDD /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here\n\npython \"${TITANIUM_SDK}/titanium.py\" run --dir=\"${PROJECT_DIR}\"\nexit $?\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2AAC07B0554694100DB518D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24DD6CFA1134B3F500162E58 /* NetUchidakTiflatuikitModule.m in Sources */,
+				24DE9E1211C5FE74003F90F6 /* NetUchidakTiflatuikitModuleAssets.m in Sources */,
+				FE170CB0178F06EA00FA89B4 /* NetUchidakTiflatuikitButtonProxy.m in Sources */,
+				FE170CB4178F08A100FA89B4 /* NetUchidakTiflatuikitButton.m in Sources */,
+				FE6CBC6D179048C600FAC1A3 /* FUIAlertView.m in Sources */,
+				FE6CBC6F179048C600FAC1A3 /* FUIButton.m in Sources */,
+				FE6CBC71179048C600FAC1A3 /* FUICellBackgroundView.m in Sources */,
+				FE6CBC73179048C600FAC1A3 /* FUIPopoverBackgroundView.m in Sources */,
+				FE6CBC75179048C600FAC1A3 /* FUISegmentedControl.m in Sources */,
+				FE6CBC77179048C600FAC1A3 /* FUISwitch.m in Sources */,
+				FE6CBC79179048C600FAC1A3 /* UIBarButtonItem+FlatUI.m in Sources */,
+				FE6CBC7B179048C600FAC1A3 /* UIColor+FlatUI.m in Sources */,
+				FE6CBC7D179048C600FAC1A3 /* UIFont+FlatUI.m in Sources */,
+				FE6CBC7F179048C600FAC1A3 /* UIImage+FlatUI.m in Sources */,
+				FE6CBC81179048C600FAC1A3 /* UINavigationBar+FlatUI.m in Sources */,
+				FE6CBC83179048C600FAC1A3 /* UIPopoverController+FlatUI.m in Sources */,
+				FE6CBC85179048C600FAC1A3 /* UIProgressView+FlatUI.m in Sources */,
+				FE6CBC87179048C600FAC1A3 /* UISlider+FlatUI.m in Sources */,
+				FE6CBC89179048C600FAC1A3 /* UIStepper+FlatUI.m in Sources */,
+				FE6CBC8B179048C600FAC1A3 /* UITabBar+FlatUI.m in Sources */,
+				FE6CBC8D179048C600FAC1A3 /* UITableViewCell+FlatUI.m in Sources */,
+				FE6CBC8F179048C600FAC1A3 /* UIToolbar+FlatUI.m in Sources */,
+				FEB55C091792D268006B25EB /* NetUchidakTiflatuikitTabbedBar.m in Sources */,
+				FEB55C0D1792D2A3006B25EB /* NetUchidakTiflatuikitTabbedBarProxy.m in Sources */,
+				FEB55C151792E81B006B25EB /* NetUchidakTiflatuikitAlertDialogProxy.m in Sources */,
+				FE0B5AB61793F57D001A591C /* NetUchidakTiflatuikitSlider.m in Sources */,
+				FE0B5ABA1793F5B0001A591C /* NetUchidakTiflatuikitSliderProxy.m in Sources */,
+				FE0B5ABE1794E41A001A591C /* NetUchidakTiflatuikitSwitch.m in Sources */,
+				FE0B5AC21794E43E001A591C /* NetUchidakTiflatuikitSwitchProxy.m in Sources */,
+				FE0B5AC617951E23001A591C /* NetUchidakTiflatuikitProgressBar.m in Sources */,
+				FE0B5ACA17951E4D001A591C /* NetUchidakTiflatuikitProgressBarProxy.m in Sources */,
+				FE0B5ACE17952F17001A591C /* NetUchidakTiflatuikitStepper.m in Sources */,
+				FE0B5AD217952F47001A591C /* NetUchidakTiflatuikitStepperProxy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		24416B8511C4CA280047AFDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2AAC07D0554694100DB518D /* TiFlatUIKit */;
+			targetProxy = 24416B8411C4CA280047AFDD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB921F08733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DSTROOT = /tmp/NetUchidakTiflatuikit.dst;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = NetUchidakTiflatuikit_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = NO;
+				GCC_WARN_MISSING_PARENTHESES = NO;
+				GCC_WARN_SHADOW = NO;
+				GCC_WARN_STRICT_SELECTOR_MATCH = NO;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_PARAMETER = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				INSTALL_PATH = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = (
+					"-DDEBUG",
+					"-DTI_POST_1_2",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = NetUchidakTiflatuikit;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "";
+				VALID_ARCHS = "armv7 armv7s i386";
+			};
+			name = Debug;
+		};
+		1DEB922008733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/NetUchidakTiflatuikit.dst;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = NetUchidakTiflatuikit_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = NO;
+				GCC_WARN_MISSING_PARENTHESES = NO;
+				GCC_WARN_SHADOW = NO;
+				GCC_WARN_STRICT_SELECTOR_MATCH = NO;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_PARAMETER = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				INSTALL_PATH = /usr/local/lib;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "-DTI_POST_1_2";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = NetUchidakTiflatuikit;
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "";
+				VALID_ARCHS = "armv7 armv7s i386";
+			};
+			name = Release;
+		};
+		1DEB922308733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DSTROOT = /tmp/NetUchidakTiflatuikit.dst;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = NetUchidakTiflatuikit_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = NO;
+				GCC_WARN_MISSING_PARENTHESES = NO;
+				GCC_WARN_SHADOW = NO;
+				GCC_WARN_STRICT_SELECTOR_MATCH = NO;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_PARAMETER = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				INSTALL_PATH = /usr/local/lib;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = (
+					"-DDEBUG",
+					"-DTI_POST_1_2",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = NetUchidakTiflatuikit;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "";
+				VALID_ARCHS = "armv7 armv7s i386";
+			};
+			name = Debug;
+		};
+		1DEB922408733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				DSTROOT = /tmp/NetUchidakTiflatuikit.dst;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = NetUchidakTiflatuikit_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = NO;
+				GCC_WARN_MISSING_PARENTHESES = NO;
+				GCC_WARN_SHADOW = NO;
+				GCC_WARN_STRICT_SELECTOR_MATCH = NO;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_PARAMETER = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				INSTALL_PATH = /usr/local/lib;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DTI_POST_1_2";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = NetUchidakTiflatuikit;
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "";
+				VALID_ARCHS = "armv7 armv7s i386";
+			};
+			name = Release;
+		};
+		24416B8211C4CA220047AFDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = "Build & test";
+				VALID_ARCHS = "armv7 armv7s i386";
+			};
+			name = Debug;
+		};
+		24416B8311C4CA220047AFDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				PRODUCT_NAME = "Build & test";
+				VALID_ARCHS = "armv7 armv7s i386";
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "TiFlatUIKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB921F08733DC00010E9CD /* Debug */,
+				1DEB922008733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "TiFlatUIKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB922308733DC00010E9CD /* Debug */,
+				1DEB922408733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24416B8A11C4CA520047AFDD /* Build configuration list for PBXAggregateTarget "Build & Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24416B8211C4CA220047AFDD /* Debug */,
+				24416B8311C4CA220047AFDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}
