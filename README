@@ -1,151 +1,232 @@
-Appcelerator Titanium iPhone Module Project
-===========================================
+TiFlatUIKit
+======================
+A Titanium module for iOS.  
+Enjoy Flat UI on Titanium.
 
-This is a skeleton Titanium Mobile iPhone module project.  Modules can be 
-used to extend the functionality of Titanium by providing additional native
-code that is compiled into your application at build time and can expose certain
-APIs into JavaScript. 
+Detail
+------
+* Button
+* Switch
+* Stepper
+* TabbedBar
+* Slider
+* AlertView
+* ProgressBar
 
-MODULE NAMING
---------------
+How to
+------
+### install this module ###
+    var TiFlatUIKit = require('net.uchidak.tiflatuikit');
+    Ti.API.info("module is => " + TiFlatUIKit);
 
-Choose a unique module id for your module.  This ID usually follows a namespace
-convention using DNS notation.  For example, com.appcelerator.module.test.  This
-ID can only be used once by all public modules in Titanium.
+### Create Flat Button ###
 
+```
+#!javascript
 
-COMPONENTS
------------
+var b = TiFlatUIKit.createButton({
+    top : 10,
+    left : 10,
+    width : 300,
+    height : 60,
+    title : 'Alert',
+    font : {
+        fontSize : 20,
+        fontWeight : 'bold'
+    },
+    color : '#f8f8f8',
+    selectedColor : '#ccc',
+    buttonColor : '#1abc9c',
+    shadowColor : '#16a085',
+    shadowHeight : 5,
+    cornerRadius : 4,
+    enabled : true
+});
+b.addEventListener('click', function(e) {
+    a.show();
+});
+```
+ 
+### Create Flat Switch ###
 
-Components that are exposed by your module must follow a special naming convention.
-A component (widget, proxy, etc) must be named with the pattern:
+```
+#!javascript
 
-	Ti<ModuleName><ComponentName>Proxy
+var sw = TiFlatUIKit.createSwitch({
+    top : 10,
+    left : 10,
+    width : 300,
+    height : 60,
+    onColor : '#f8f8f8',
+    offColor : '#cccccc',
+    onBackgroundColor : '#e74c3c',
+    offBackgroundColor : '#7f8c8d',
+    onLabel : 'YESSSS!!',
+    offLabel : 'NOOOO!!',
+    value : true,
+    onLabelFont : {
+        fontSize : 24
+    },
+    offLabelFont : {
+        fontSize : 24
+    }
+});
+sw.addEventListener('change', function(e) {
+    Ti.API.log(e);
+});
+```
 
-For example, if you component was called Foo, your proxy would be named:
+### Create Flat Stepper ###
 
-	TiMyfirstFooProxy
-	
-For view proxies or widgets, you must create both a view proxy and a view implementation. 
-If you widget was named proxy, you would create the following files:
+```
+#!javascript
 
-	TiMyfirstFooProxy.h
-	TiMyfirstFooProxy.m
-	TiMyfirstFoo.h
-	TiMyfirstFoo.m
-	
-The view implementation is named the same except it does contain the suffix `Proxy`.  
+var st = TiFlatUIKit.createStepper({
+    top :10,
+    left : 10,
+    width : 94,
+    height : 27,
+    min : 1,
+    max : 100,
+    stepValue : 5,
+    value : 50,
+    color : '#34495e',
+    highlightedColor : '#95a5a6',
+    disabledColor : '#95a5a6',
+    minusIconColor : '#e74c3c',
+    plusIconColor : '#3498db'
+});
+st.addEventListener('change', function(e) {
+    Ti.API.debug(e);
+    stl.text = e.value;
+});
+```
+### Create Flat TabbedBar ###
 
-View implementations extend the Titanium base class `TiUIView`.  View Proxies extend the
-Titanium base class `TiUIViewProxy` or `TiUIWidgetProxy`.  
+```
+#!javascript
 
-For proxies that are simply native objects that can be returned to JavaScript, you can 
-simply extend `TiProxy` and no view implementation is required.
+var t = TiFlatUIKit.createTabbedBar({
+    top : 10,
+    left : 10,
+    width : 300,
+    height : 60,
+    selectedFont : {
+        fontSize : 20,
+        fontWeight : 'bold'
+    },
+    deselectedFont : {
+        fontSize : 20,
+        fontWeight : 'bold'
+    },
+    selectedColor : '#d35400',
+    deselectedColor : '#e67e22',
+    selectedFontColor : '#ccc',
+    deselectedFontColor : '#f8f8f8',
+    dividerColor : '#e67e22',
+    cornerRadius : 4,
+    index : 0,
+    labels : ['TabA', 'TabB', 'TabC'],
+    enabled : true
+});
+t.addEventListener('click', function(e) {
+    Ti.API.debug('TabbedBar index:' + e.index);
+});
+```
+### Create Flat Slider ###
 
+```
+#!javascript
 
-GET STARTED
-------------
+var sd = TiFlatUIKit.createSlider({
+    top : 10,
+    left : 10,
+    width : 300,
+    height : 60,
+    min : 1,
+    max : 100,
+    value : 50,
+    trackColor : '##34495e',
+    progressColor : '#f1c40f',
+    thumbColor : '#3498db',
+    enabled : true
+});
+sd.addEventListener('change', function(e) {
+    Ti.API.debug(e);
+});
+```
 
-1. Edit manifest with the appropriate details about your module.
-2. Edit LICENSE to add your license details.
-3. Place any assets (such as PNG files) that are required in the assets folder.
-4. Edit the titanium.xcconfig and make sure you're building for the right Titanium version.
-5. Code and build.
+### Create Flat AlertView ###
 
-BUILD TIME COMPILER CONFIG
---------------------------
+```
+#!javascript
 
-You can edit the file `module.xcconfig` to include any build time settings that should be
-set during application compilation that your module requires.  This file will automatically get `#include` in the main application project.  
+var a = TiFlatUIKit.createAlertDialog({
+    titleColor : '#f8f8f8',
+    messageColor : '#f8f8f8',
+    overlayColor : '#f8f8f8',
+    backgroundColor : '#2ecc71',
+    defaultButtonColor : '#3498db',
+    defaultButtonShadowColor : '#2980b9',
+    defaultButtonTitleColor : '#f8f8f8',
+    cancelButtonColor : '#95a5a6',
+    cancelButtonShadowColor : '#7f8c8d',
+    cancelButtonTitleColor : '#f8f8f8',
+    titleFont : {
+        fontSize : 24,
+        fontWeight : 'bold'
+    },
+    messageFont : {
+        fontSize : 18,
+    },
+    buttonFont : {
+        fontSize : 18,
+        fontWeight : 'bold'
+    },
+    buttonNames : ['buttonA', 'buttonB', 'Cancel'],
+    title : 'Title',
+    message : 'This is TiFlatUIKit',
+    cancel : 2
+});
+a.addEventListener('click', function(e) {
+    Ti.API.debug(e);
+});
+a.show();
+```
+### Create Flat ProgressBar ###
 
-For more information about this file, please see the Apple documentation at:
+```
+#!javascript
 
-<http://developer.apple.com/mac/library/documentation/DeveloperTools/Conceptual/XcodeBuildSystem/400-Build_Configurations/build_configs.html>
+var p = TiFlatUIKit.createProgressBar({
+    top : 10,
+    left : 10,
+    width : 300,
+    height : 60,
+    min : 0,
+    max : 100,
+    value : 1,
+    color : '#333333',
+    message : 'Loading...',
+    font : {
+        fontSize : 14
+    },
+    trackColor : '#1abc9c',
+    progressColor : '#f1c40f'
+});
+var interval = setInterval(function() {
+    if (100 == p.value) {
+        p.value = 1;
+    }
+    p.value = p.value + 1;
+}, 100);
+p.show();
+```
 
-
-DOCUMENTATION FOR YOUR MODULE
------------------------------
-
-You should provide at least minimal documentation for your module in `documentation` folder using the Markdown syntax.
-
-For more information on the Markdown syntax, refer to this documentation at:
-
-<http://daringfireball.net/projects/markdown/>
-
-
-TEST HARNESS EXAMPLE FOR YOUR MODULE
-------------------------------------
-
-The `example` directory contains a skeleton application test harness that can be 
-used for testing and providing an example of usage to the users of your module.
-
-
-INSTALL YOUR MODULE
---------------------
-
-1. Run `build.py` which creates your distribution
-2. cd to `/Library/Application Support/Titanium`
-3. copy this zip file into the folder of your Titanium SDK
-
-REGISTER YOUR MODULE
----------------------
-
-Register your module with your application by editing `tiapp.xml` and adding your module.
-Example:
-
-<modules>
-	<module version="0.1">net.uchidak.tiflatuikit</module>
-</modules>
-
-When you run your project, the compiler will know automatically compile in your module
-dependencies and copy appropriate image assets into the application.
-
-USING YOUR MODULE IN CODE
--------------------------
-
-To use your module in code, you will need to require it. 
-
-For example,
-
-	var my_module = require('net.uchidak.tiflatuikit');
-	my_module.foo();
-
-WRITING PURE JS NATIVE MODULES
-------------------------------
-
-You can write a pure JavaScript "natively compiled" module.  This is nice if you
-want to distribute a JS module pre-compiled.
-
-To create a module, create a file named net.uchidak.tiflatuikit.js under the assets folder.
-This file must be in the Common JS format.  For example:
-
-	exports.echo = function(s)
-	{
-		return s;
-	};
-	
-Any functions and properties that are exported will be made available as part of your
-module.  All other code inside your JS will be private to your module.
-
-For pure JS module, you don't need to modify any of the Objective-C module code. You
-can leave it as-is and build.
-
-TESTING YOUR MODULE
--------------------
-
-Run the `titanium.py` script to test your module or test from within XCode.
-To test with the script, execute:
-
-	titanium run --dir=YOURMODULEDIR
-	
-
-This will execute the app.js in the example folder as a Titanium application.
-
-
-DISTRIBUTING YOUR MODULE
--------------------------
-
-Currently, you will need to manually distribution your module distribution zip file directly. However, in the near future, we will make module distribution and sharing built-in to Titanium Developer and in the Titanium Marketplace!
-
-
-Cheers!
+Thanks:)
+--------
+[FlatUIKit](https://github.com/Grouper/FlatUIKit "FlatUIKit")
+ 
+License
+----------
+[MIT LICENSE](http://www.opensource.org/licenses/mit-license.php "MIT LICENSE")
