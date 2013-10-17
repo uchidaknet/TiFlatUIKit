@@ -1,12 +1,20 @@
-TiFlatUIKit
-======================
-A Titanium module for iOS(requires iOS5.0 or later).  
-Enjoy Flat UI on Titanium.  
+TiFlatUIKit(){
+==================================================
+This is a Titanium module for iOS(requires iOS5.0 or later).  
+Enjoy Flat UI on Titanium;D  
 
 ![screenshot](./sample.png)
 
-Detail
-------
+<a name="TOC">Table of Contents</a>
+--------------------------------------------------
+1. [Components](#Components)
+1. [Requirements](#Requirements)
+1. [Installtion](#Installtion)
+1. [Usage](#Usage)
+1. [License](#License)
+
+<a name="Components">Components</a>
+--------------------------------------------------
 * Button
 * Switch
 * Stepper
@@ -15,12 +23,25 @@ Detail
 * AlertView
 * ProgressBar
 
-How to
-------
-### install this module ###
+**[[⬆]](#TOC)**
+
+<a name="Requirements">Requirements</a>
+--------------------------------------------------
+- Titanium SDK 3.1 or later
+- iOS 5.0 or later
+
+**[[⬆]](#TOC)**
+
+<a name="Installtion">Installtion</a>
+--------------------------------------------------
+### Install this module ###
     var TiFlatUIKit = require('net.uchidak.tiflatuikit');
     Ti.API.info("module is => " + TiFlatUIKit);
 
+**[[⬆]](#TOC)**
+
+<a name="Usage">Usage</a>
+--------------------------------------------------
 ### Create Flat Button ###
     var b = TiFlatUIKit.createButton({
         top : 10,
@@ -193,13 +214,11 @@ How to
     }, 100);
     p.show();
 
-Thanks:)
---------
-[FlatUIKit](https://github.com/Grouper/FlatUIKit "FlatUIKit")
- 
-License
-----------
-TiFlatUIKit  
+**[[⬆]](#TOC)**
+
+<a name="License">License and Credits</a>
+--------------------------------------------------
+**TiFlatUIKit**  
 The MIT License (MIT)
 
 Copyright (c) 2013 Keisuke Uchida
@@ -222,7 +241,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 
-Flat UI Kit[https://github.com/Grouper/FlatUIKit]  
+**[Flat UI Kit](https://github.com/Grouper/FlatUIKit)**  
 The MIT License (MIT)  
 
 Copyright (c) 2013 Grouper, Inc
@@ -244,3 +263,9 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
+
+**[[⬆]](#TOC)**
+
+};
+==================================================
+© 2013 [Keisuke Uchida](http://uchidak.net) All rights reserved.
