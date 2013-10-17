@@ -34,15 +34,18 @@ Enjoy Flat UI on Titanium;D
 
 <a name="Installtion">Installtion</a>
 --------------------------------------------------
-### Install this module ###
+### Install this module
+```javascript
     var TiFlatUIKit = require('net.uchidak.tiflatuikit');
     Ti.API.info("module is => " + TiFlatUIKit);
+```
 
 **[[⬆]](#TOC)**
 
 <a name="Usage">Usage</a>
 --------------------------------------------------
-### Create Flat Button ###
+### Create Flat Button
+```javascript
     var b = TiFlatUIKit.createButton({
         top : 10,
         left : 10,
@@ -64,8 +67,10 @@ Enjoy Flat UI on Titanium;D
         b.addEventListener('click', function(e) {
         a.show();
     });
+```
 
-### Create Flat Switch ###
+### Create Flat Switch
+```javascript
     var sw = TiFlatUIKit.createSwitch({
         top : 10,
         left : 10,
@@ -88,8 +93,10 @@ Enjoy Flat UI on Titanium;D
     sw.addEventListener('change', function(e) {
         Ti.API.log(e);
     });
+```
 
-### Create Flat Stepper ###
+### Create Flat Stepper
+```javascript
     var st = TiFlatUIKit.createStepper({
         top :10,
         left : 10,
@@ -109,8 +116,10 @@ Enjoy Flat UI on Titanium;D
         Ti.API.debug(e);
         stl.text = e.value;
     });
+```
 
-### Create Flat TabbedBar ###
+### Create Flat TabbedBar
+```javascript
     var t = TiFlatUIKit.createTabbedBar({
         top : 10,
         left : 10,
@@ -137,8 +146,10 @@ Enjoy Flat UI on Titanium;D
     t.addEventListener('click', function(e) {
         Ti.API.debug('TabbedBar index:' + e.index);
     });
+```
 
-### Create Flat Slider ###
+### Create Flat Slider
+```javascript
     var sd = TiFlatUIKit.createSlider({
         top : 10,
         left : 10,
@@ -155,8 +166,10 @@ Enjoy Flat UI on Titanium;D
     sd.addEventListener('change', function(e) {
         Ti.API.debug(e);
     });
+```
 
-### Create Flat AlertView ###
+### Create Flat AlertView
+```javascript
     var a = TiFlatUIKit.createAlertDialog({
         titleColor : '#f8f8f8',
         messageColor : '#f8f8f8',
@@ -188,8 +201,10 @@ Enjoy Flat UI on Titanium;D
         Ti.API.debug(e);
     });
     a.show();
+```
 
-### Create Flat ProgressBar ###
+### Create Flat ProgressBar
+```javascript
     var p = TiFlatUIKit.createProgressBar({
         top : 10,
         left : 10,
@@ -213,6 +228,7 @@ Enjoy Flat UI on Titanium;D
         p.value = p.value + 1;
     }, 100);
     p.show();
+```
 
 **[[⬆]](#TOC)**
 
